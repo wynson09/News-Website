@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>News Website</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header">
+        <section class="header-container">
+            <a href=""><img src="img/refocus-logo.png" alt="logo"></a>
+            <div class="nav-container">
+                <nav class="navbar" aria-label="main">
+                    <a href="#" id="nav-1" class="nav_style" onclick="navClick(1)">Blog</a>
+                    <a href="#" id="nav-2" class="nav_style" onclick="navClick(2)">Our courses</a>
+                    <a href="#" id="nav-3" class="nav_style" onclick="navClick(3)">Free webinars</a>
+                    <a href="#" id="nav-4" class="nav_style" onclick="navClick(4)">Reviews</a>
+                </nav>
+                <div class="button-container">
+                    <button class="signin-btn">Sign up</button>
+                    <button class="login-btn">Login</button>
+                </div>
+            </div>
+            <button class="hamburger-button">
+                <div class="hamburger"></div>
+            </button>
+        </section>
+        <section class="mobile-menu">
+            <nav class="navbar" aria-label="mobile">
+                <a href="#" class="nav_style">Blog</a>
+                <a href="#" class="nav_style">Our courses</a>
+                <a href="#" class="nav_style">Free webinars</a>
+                <a href="#" class="nav_style">Reviews</a>
+            </nav>
+            <div class="button-container">
+                <button class="signin-btn">Sign up</button>
+                <button class="login-btn">Login</button>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section id="hero" class="main-container">
+            <ul id="list" class="card-container">
+                    <!-- dynamic list  -->
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <section class="footer-container">
+            <div class="section-1">
+                <h3>BLOG</h3>
+                <nav class="footerNav-container">
+                    <a href="#" class="footer_navStyle">Data Analyst</a>
+                    <a href="#" class="footer_navStyle">Web Developer</a>
+                    <a href="#" class="footer_navStyle">Career</a>
+                    <a href="#" class="footer_navStyle">Success Stories</a>
+                    <a href="#" class="footer_navStyle">Resume</a>
+                    <a href="#" class="footer_navStyle">Hard Skills</a>
+                    <a href="#" class="footer_navStyle">Soft Skills</a>
+                </nav>
+                <h3>OUR COURSES</h3>
+                <nav class="footerNav-container">
+                    <a href="#" class="footer_navStyle">Data Analytics</a>
+                    <a href="#" class="footer_navStyle">Web Development</a>
+                </nav>             
+            </div>
+            <div class="section-2">
+                <div>
+                    <p class="footer_navStyle">Follow Us</p>
+                    <ul class="social-icons">
+                        <li><i class="fa-brands fa-linkedin-in"></i></li>
+                        <li><i class="fa-brands fa-instagram"></i></li>
+                        <li><i class="fa-brands fa-facebook-f"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-whatsapp"></i></li>
+                        <li><i class="fa-brands fa-tiktok"></i></li>
+                        <li><i class="fa-solid fa-play"></i></li>
+                    </ul>
+                </div>
+                <div class="copyRight-container">
+                    <p class="copyRight">&copy; Refocus Limited 2022</p>
+                    <p class="copyRight">Privacy Policy <span>&#183</span> Terms of Use</p>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="js/index.js" defer></script>
+</body>
+</html>

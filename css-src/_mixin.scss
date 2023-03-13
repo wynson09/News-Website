@@ -1,0 +1,11 @@
+@mixin header-btn ($color: variables.$color-gray-2, $border: none, $size: 16px, $bg-color: variables.$header-color, $font: 600) {
+    color: $color;
+    border: $border;
+    font-size: $size;
+    font-weight: $font;
+    background-color: $bg-color;
+}
+@mixin transEffect ($delay: 0.3s) {
+    transition: all;
+    transition-duration: $delay;
+}
